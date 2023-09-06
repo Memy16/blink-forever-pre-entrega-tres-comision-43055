@@ -92,12 +92,12 @@ body{
 .c4 {
     align-self: flex-end;
 }
-.grid-discografia{
+.grid-mv{
     display: grid;
     width: 100vw;
     height: 100vh;
     grid-template-columns: repeat(3,422px);
-    grid-template-rows: repeat(4,265px);
+    grid-template-rows: repeat(6,265px);
 }
 .biografia{
     font-family: poppins;
