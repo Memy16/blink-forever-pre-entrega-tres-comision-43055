@@ -106,6 +106,21 @@ body{
     grid-template-columns: repeat(3,422px);
     grid-template-rows: repeat(6,265px);
 }
+.grid-covers-rose{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,16.5625rem);
+}
+.grid-dpv-lisa{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,16.5625rem);
+}
+.flex-solo{
+    display: flex;
+    width: 100%;
+
+}
 .biografia{
     font-family: poppins;
 }
@@ -191,6 +206,20 @@ footer{
             background-image: url(https://i.ibb.co/QH2hBHc/blink-forever-lisa0.png);
             width: 100%;
             max-height: 25rem;
+        }
+        .grid-discografia{
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,160px);
+        }
+        .grid-mv{
+            display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(9,200px);
         }
     
 }
