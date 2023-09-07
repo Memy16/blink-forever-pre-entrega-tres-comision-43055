@@ -92,6 +92,13 @@ body{
 .c4 {
     align-self: flex-end;
 }
+.grid-discografia{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,300px);
+}
 .grid-mv{
     display: grid;
     width: 100vw;
